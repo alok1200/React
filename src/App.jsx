@@ -1,7 +1,5 @@
-// Import useState hook from React for managing state
 import { useState } from "react";
 
-// Import the CSS file for styling
 import "./App.css";
 
 function App() {
