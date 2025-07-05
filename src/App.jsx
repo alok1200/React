@@ -1,8 +1,10 @@
 import { useState } from "react";
-
+import { Counter } from "./Component/Counter";
 import "./App.css";
 
 function App() {
+  <Counter></Counter>;
+
   // Define the state 'todos' and its setter 'setTodos', initializing with one todo item
   const [todos, setTodos] = useState([
     {
